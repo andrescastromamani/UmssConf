@@ -1,4 +1,7 @@
-.footer{
-    background-color: blueviolet;
-    height: 20px;
+#footer{
+    background-color: rgb(30, 30, 158);
+}
+#footer a{
+    color: white;
+    text-decoration: none;
 }

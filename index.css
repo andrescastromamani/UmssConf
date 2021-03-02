@@ -6,6 +6,12 @@ html, body{
 #header img{
     width: 300px;
 }
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+
+}
 .ticket{
     color: blue !important;
 }

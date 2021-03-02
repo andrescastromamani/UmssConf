@@ -1,11 +1,14 @@
 /*Generales*/
-
 a{
     text-decoration: none;
 }
+
 /*Header*/
 #header img{
     width: 300px;
+}
+#header a{
+    color: white;
 }
 #main .carousel-inner img{
     max-height: 70vh;
@@ -14,7 +17,7 @@ a{
 
 }
 .ticket{
-    color: blue !important;
+    color: #0d6efd !important;
 }
 /*Main*/
 #carousel{
@@ -34,10 +37,18 @@ a{
     height: 100%;
 }
 
-/*Footer*/
-#footer{
-    background-color: rgb(30, 30, 158);
+/*Lugar y fecha*/
+#place{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(0,212,255,1) 100%);
+    color: white    ;
 }
+#place img{
+    width: 100%;
+}
+
+/*Footer*/
+
 #footer a{
     color: white;
 }

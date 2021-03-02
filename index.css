@@ -2,6 +2,9 @@
 html, body{
     background-color: gray;
 }
+a{
+    text-decoration: none;
+}
 /*Header*/
 #header img{
     width: 300px;
@@ -39,5 +42,4 @@ html, body{
 }
 #footer a{
     color: white;
-    text-decoration: none;
 }
